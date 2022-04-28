@@ -3,7 +3,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
@@ -12,6 +12,8 @@ body {
   background: #1F2937;
   color: white;
   flex: 1;
+  justify-content: center;
+  align-items: center;
 }
 
 .section1 {
@@ -21,7 +23,7 @@ body {
 }
 
 .section2 {
-    display: flex;
+  display: flex;
   background: #E5E7EB;
   flex: 1;
 }
@@ -41,4 +43,37 @@ body {
   justify-content: center;
   align-items: center;
 
+}
+
+
+.container {
+  display: flex;
+  gap: 100px;
+}
+
+
+.mainhead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  align-self: flex-start;
+}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+.test {
+  align-self: flex-start;
 }
