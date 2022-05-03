@@ -1,5 +1,5 @@
 body {
-    min-height: 100vh;
+    min-height: 200vh;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -58,8 +58,14 @@ body {
 
 .bottom {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   margin-bottom: auto;
+}
+
+.left-container {
+  width: 250px;
+  margin-left: 120px;
+  margin-top: 50px;
 }
 
 
@@ -76,6 +82,7 @@ ul {
 
 a:link {
   text-decoration: none;
+  color: white;
 }
 
 
@@ -96,3 +103,18 @@ button {
 
 }
 
+
+.left-container button {
+  color: white;
+  border: 3px solid #3882F6;
+  background-color: #3882F6;
+  border-radius: 20px;
+  font-size: 10px;
+  height: 50px;;
+  width: 120px;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: 800;
+  margin-left: -3px;
+
+}
