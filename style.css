@@ -9,17 +9,22 @@ body {
 
 .header {
   display: flex;
+  flex-direction: column;
   background: #1F2937;
   color: white;
   flex: 1;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: space-between;
+  gap: 30px;
 }
 
 .section1 {
   display: flex;
   background: white;
   flex: 1;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 800;
 }
 
 .section2 {
@@ -46,26 +51,25 @@ body {
 }
 
 
-.container {
+.top {
   display: flex;
-  gap: 100px;
+  justify-content: space-around;
 }
 
-
-.mainhead {
+.bottom {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 50px;
-
-
+  margin-bottom: auto;
 }
+
 
 ul {
   display: flex;
   list-style-type: none;
   gap: 10px;
   align-self: flex-start;
+  margin-top: 0px;
+  font-size: 20px;
 }
 
 
@@ -74,6 +78,21 @@ a:link {
   text-decoration: none;
 }
 
+
 .test {
   align-self: flex-start;
 }
+
+button {
+  color: black;
+  border: 3px solid #3882F6;
+  background-color: green;
+  border-radius: 20px;
+  font-size: 10px;
+  height: 150px;;
+  width: 150px;
+  margin: 5px;
+
+
+}
+
